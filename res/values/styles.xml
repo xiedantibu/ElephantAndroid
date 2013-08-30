@@ -1,0 +1,47 @@
+<resources>
+
+<style name="base_activity_animation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/base_slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/base_stay_orig</item>
+        <item name="android:activityCloseEnterAnimation">@anim/base_stay_orig</item>
+        <item name="android:activityCloseExitAnimation">@anim/base_slide_right_out</item>
+        <item name="android:taskOpenEnterAnimation">@anim/base_slide_right_in</item>
+        <item name="android:taskOpenExitAnimation">@anim/base_stay_orig</item>
+        <item name="android:taskCloseEnterAnimation">@anim/base_stay_orig</item>
+        <item name="android:taskCloseExitAnimation">@anim/base_slide_right_out</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/base_slide_right_in</item>
+        <item name="android:taskToFrontExitAnimation">@anim/base_stay_orig</item>
+        <item name="android:taskToBackEnterAnimation">@anim/base_stay_orig</item>
+        <item name="android:taskToBackExitAnimation">@anim/base_slide_right_out</item>
+</style>
+    
+
+<style name="base_large_progressbar_style">
+        <item name="android:maxWidth">38.0dip</item>
+        <item name="android:maxHeight">38.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/base_loading_large_anim</item>
+        <item name="android:minWidth">38.0dip</item>
+        <item name="android:minHeight">38.0dip</item>
+    </style>
+
+    <style name="base_small_progressbar_style">
+        <item name="android:maxWidth">18.0dip</item>
+        <item name="android:maxHeight">18.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/base_loading_small_anim</item>
+        <item name="android:minWidth">18.0dip</item>
+        <item name="android:minHeight">18.0dip</item>
+    </style>
+
+<style name="CustomProgressDialog" parent="@style/CustomDialog"> 
+        <item name="android:windowBackground">@android:color/transparent</item> 
+        <item name="android:windowNoTitle">true</item> 
+ </style>
+ 
+<style name="CustomDialog" parent="@android:style/Theme.Dialog">  
+  <item name="android:windowFrame">@null</item>  
+  <item name="android:windowIsFloating">true</item>  
+  <item name="android:windowContentOverlay">@null</item>  
+  <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>  
+  <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>  
+ </style>  
+</resources>

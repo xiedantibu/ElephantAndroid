@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="elephant.base.theme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/base_activity_animation</item>
+    </style>
+
+
+</resources>

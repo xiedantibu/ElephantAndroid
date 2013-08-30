@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- base String -->
+    <string name="app_name">ElephantAndroid</string>
+    <string name="progress_msg">正在加载...</string>
+    <string name="click_again">点击重新加载</string>
+</resources>
